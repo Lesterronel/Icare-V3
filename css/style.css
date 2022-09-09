@@ -1,0 +1,455 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+.main-content {
+    margin-bottom: 30px;
+}
+ /* Log in page */
+.image {
+    width: 200px;
+    margin: 30px auto 25px;
+}
+.image img {
+    width: 200px;
+}
+#login div:nth-child(2) {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #57575755;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+#login form {
+    width: 400px;
+    height: 350px;
+    padding-top: 35px;
+}
+#login form label, #login form input {
+    margin-bottom: 10px;
+}
+#login form input {
+    width: 240px;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+#login form a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+#login form a:hover {
+    color: #4d79f0;
+}
+#login form div {
+    width: 230px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#login form div button {
+    width: 90px;
+    padding: 4px 0 4px;
+    background-color: #98F1EA;
+    font-size: .8em;
+    font-weight: 900;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+#login form div button:hover {
+    color: #4d79f0;
+    border: 1px solid #4d79f0;
+}
+
+ /* Sign up page */
+#signup form {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    /* padding-left: 50px; */
+    background-color: #fff;
+    border: 1px solid #57575755;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+#signup form input {
+    width: 240px;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+#signup form .row {
+    width: 90%;
+    margin: 0 auto;
+}
+#signup form .row:nth-child(3) {
+    padding-top: 20px;
+    margin-bottom: 16px;
+}
+#signup form .row:nth-child(3) p {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+#signup form .row:nth-child(4) {
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+#signup form button {
+    width: 100px;
+    height: 40px;
+    padding: 4px 0 4px;
+    margin: 0 auto;
+    background-color: #98F1EA;
+    font-size: .8em;
+    font-weight: 900;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+#signup form button:hover {
+    color: #4d79f0;
+    border: 1px solid #4d79f0;
+}
+
+/* navbar */
+.navbar {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar img {
+    width: 70px;
+    height: 60px;
+}
+.logout-btn {
+    text-decoration: none;
+    color: #0000008c;
+}
+.navbar .navbar-collapse ul li hr {
+    width: 70%;
+    margin: 16px auto;
+}
+/* product categories page */
+.categories {
+    margin-top: 50px;
+}
+.categories .prescription-buttons {
+    width: 80%;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.categories .prescription-buttons a {
+    display: inline-block;
+    width: 300px;
+    background-color: #98F1EA;
+    line-height: 60px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    border-radius: 10px;
+}
+#categories-list a {
+    display: inline-block;
+    width: 270px;
+    margin: 0 auto 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #555555;
+}
+#categories-list img {
+    width: 268px;
+    margin-bottom: 5px;
+}
+
+/* user cart page */
+.cart-product {
+    width: 80%;
+    margin: 30px auto 30px;
+    padding: 20px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+}
+.cart-product-image {
+    width: 200px;
+}
+.cart-product-image img {
+    width: 200px;
+}
+.col-sm-7 {
+    margin-bottom: 20px;
+}
+.cart-product input {
+    width: 100px;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+.cart-product label {
+    margin-right: 5px;
+}
+#update-product {
+    width: 80px;
+    line-height: 28px;
+    background-color: #98F1EA;
+    font-size: .8em;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+#remove-product {
+    width: 100px;
+    height: 40px;
+    padding: 4px 0 4px;
+    margin: 0 auto 20px;
+    background-color: #F53232;
+    color: #FFFFFF;
+    font-size: .8em;
+    font-weight: 900;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+
+/* form order page */
+.form-order {
+    margin-top: 20px;
+}
+.shipping-address p, .shipping-details p {
+    font-weight: 600;
+}
+.shipping-address input, .shipping-details input {
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+.fo-product {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #555555;
+    margin: 20px 0 30px;
+}
+.fo-product-image {
+    width: 100px;
+}
+.fo-product-image img {
+    width: 100px;
+}
+.grand-total span {
+    font-weight: 600;
+}
+#confirm-order {
+    width: 200px;
+    height: 40px;
+    padding: 4px 0 4px;
+    margin: 0 auto 20px;
+    background-color: #70E570;
+    color: #000;
+    font-size: .8em;
+    font-weight: 900;
+    border: 1px solid #555555;
+    border-radius: 10px;
+}
+
+/* purchase receipt page */
+.purchase-receipt {
+    width: 40%;
+    margin: 20px auto 30px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+}
+.purchase-receipt span{
+    font-weight: 600;
+}
+.pr-product {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #555555;
+    margin-bottom: 15px;
+}
+.purchase-receipt div:nth-child(3) {
+    text-align: center;
+}
+.view-orders-button {
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    text-decoration: none;
+    background-color: #98F1EA;
+    font-weight: 900;
+    color: #1240be;
+    line-height: 35px;
+    border-radius: 10px;
+}
+
+/* large devices (desktop) */
+@media (min-width: 992px) {
+    /* product categories */
+    .navbar .navbar-collapse ul li {
+        margin-left: 15px;
+    }
+    .logout-btn {
+        display: inline-block;
+        width: 80px;
+        color: #1240be;
+        font-size: .9em;
+        text-decoration: none;
+        line-height: 45px;
+        background-color: #98F1EA;
+        border-radius: 5px;
+        
+    }
+    .navbar .navbar-collapse ul li {
+        display: flex;
+    }
+    .navbar .navbar-collapse ul li hr {
+        visibility: hidden;
+    }
+}
+
+/* medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* sign up page */
+    #signup form {
+        width: 90%;
+    }
+    #signup form input {
+        width: 200px;
+    }
+    /* product categories page */
+    .categories .prescription-buttons a {
+        width: 200px; 
+    }
+
+    /* purchase receipt page */
+    .purchase-receipt {
+        width: 50%;
+    }
+}
+
+/* small devices (phones) */
+@media (min-width: 577px) and (max-width: 767px) {
+    /* sign up page */
+    #signup form {
+        text-align: center;
+    }
+
+    /* product categories page */
+    .categories .prescription-buttons a {
+        width: 180px; 
+        font-size: .8em;
+    }
+    
+    /* user cart page */
+    .cart-product-image {
+        margin: 0 auto;
+    }
+    .col-sm-5 {
+        width: 100%;
+    }
+    .col-sm-7 {
+        width: 100%;
+    }
+    .cart-product input {
+        width: 150px;
+        margin-right: 10px;
+    }
+    
+    /* form order page */
+    .form-order {
+        text-align: center;
+    }
+    .fo-product {
+        margin: 20px auto 30px;
+        width: 70%;
+    }
+    .fo-product-image {
+        margin: 0 auto;
+    }
+
+    /* purchase receipt page */
+    .purchase-receipt {
+        width: 60%;
+    }
+    .view-orders-button {
+        width: 100px;
+       font-size: .8em;
+    }
+}
+
+/* extra small devices */
+@media (max-width: 576px) {
+    /* log in page */
+    #login div:nth-child(2) {
+        width: 80%;
+    }
+    #login form {
+        width: 100%;
+    }
+    #login form input {
+        width: 75%
+    }
+    #login form div {
+        width: 70%;
+    }
+    #login form div button {
+        width: 80px
+    }
+
+    /* sign up page */
+    #signup form input {
+        width: 170px;
+    }
+    #signup form {
+        text-align: center;
+    }
+    /* product categories page */
+    .categories .prescription-buttons a {
+        width: 200px; 
+        font-size: .8em;
+    }
+    .categories .prescription-buttons .col-sm-6:nth-child(1) {
+        margin-bottom: 10px;
+    }
+
+    /* user cart page */
+    .cart-product-image {
+        margin: 0 auto;
+    }
+    .cart-product input {
+        width: 80px;
+        margin-right: 10px;
+    }
+    #update-product {
+        width: 60px
+    }
+
+    /* form order page */
+    .form-order {
+        text-align: center;
+    }
+    .shipping-address input, .shipping-details input {
+        width: 200px;
+    }
+    .fo-product {
+        margin: 20px auto 30px;
+        width: 70%;
+    }
+    .fo-product-image {
+        margin: 0 auto;
+    }
+
+    /* purchase receipt page */
+    .purchase-receipt {
+        width: 60%;
+    }
+    .view-orders-button {
+        width: 90px;
+       font-size: .8em;
+    }
+}
